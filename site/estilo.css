@@ -19,5 +19,10 @@
     background-color: #ACADC2;
     color: black;
 }
+
+#botao:hover {
+    background-color: #303677;
+    color: white;
+}
 /* FIM DOS ID'S */
 
