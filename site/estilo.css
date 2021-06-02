@@ -1,7 +1,23 @@
+/* ID */
 #menu-superior {
     background-color: #0A0D27;
 }
 
 #menu-superior a {
     color: white;
+    display: block;
+    padding: 9px;
+    margin: 1px;
 }
+
+#menu-superior a:hover {
+    background-color: #191C3E;
+    color: white;
+}
+
+#botao {
+    background-color: #ACADC2;
+    color: black;
+}
+/* FIM DOS ID'S */
+
