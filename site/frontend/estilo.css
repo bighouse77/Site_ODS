@@ -5,7 +5,7 @@
 
 #menu-superior a {
     color: white;
-    display: block;
+    display: inline-block;
     padding: 9px;
     margin: 1px;
 }
@@ -25,4 +25,3 @@
     color: white;
 }
 /* FIM DOS ID'S */
-
