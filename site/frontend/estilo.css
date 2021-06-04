@@ -13,8 +13,8 @@
 
 #menu-superior a:hover {
     display: inline-block;
-    background-color: #191C3E;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 #botao {
@@ -31,6 +31,11 @@
     font-size: 48px;
     font-family: Blippo, fantasy;
     color: #003b03;
+}
+
+#botao:hover {
+    background-color: rgb(237, 237, 255);
+    color: black;
 }
 /* FIM DOS ID'S */
 
