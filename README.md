@@ -1,7 +1,8 @@
-# Site-ODS
- Atividade PW
+# SITE - ODS
+ ATIVIDADE PW - Diego Negretto
+ TEMA: PAZ, JUSTIÇA E INSTITUIÇÕES EFICAZES
 
-Responsaveis:
+RESPONSAVEIS:
 
 FRONT-END
 - index.html -> Mauricio (bighouse77)
