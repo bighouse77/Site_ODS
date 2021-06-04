@@ -5,12 +5,14 @@
 
 #menu-superior a {
     color: white;
+    font-size: 16px;
     display: inline-block;
-    padding: 9px;
-    margin: 1px;
+    padding: 3px;
+    margin: 0px 40px 0px 40px;
 }
 
 #menu-superior a:hover {
+    display: inline-block;
     background-color: #191C3E;
     color: white;
 }
@@ -21,7 +23,31 @@
 }
 
 #botao:hover {
-    background-color: #303677;
-    color: white;
+    background-color: #f0f0f1;
+}
+
+#titulo {
+    display: inline-block;
+    font-size: 48px;
+    font-family: Blippo, fantasy;
+    color: #003b03;
 }
 /* FIM DOS ID'S */
+
+
+
+/* CLASSES */
+.noticias {
+    color: black;
+    margin: 0px 20px 0px 20px;
+    text-decoration: none;
+    background-color: white;
+    transition: 1s;
+}
+
+.noticias:hover, .noticias:focus {
+    background: #0A0D27;
+    color: white;
+    transform: translateX(10px) scale(1.2);
+}
+/* FIM DAS CLASSES */
