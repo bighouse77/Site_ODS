@@ -3,11 +3,16 @@
 
     <head>
         <meta charset="UTF-8">
+      
         <link rel="stylesheet" type="text/css" href="estilo.css"/>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script> src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"</script>
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        
+        <script src="animacao/animacao.js"></script>
 
         <title>Pagina Principal</title>
     </head>
@@ -34,7 +39,7 @@
                   </li>
                 </ul>
                 <a href="login.html">
-                <button id="botao" type="button" class="btn btn-dark"><b>Area do Contribuinte</b></button>
+                  <button id="botao" type="button" class="btn btn-dark"><b>Area do Contribuinte</b></button>
                 </a>
               </div>
             </div>
@@ -67,25 +72,30 @@
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <a class="noticias" href="">
+                <a id="noticia1" class="noticias" href="">
                   <div class="shadow-lg p-3 mb-5 rouded noticias">
                     <h5>Número de vítimas de homicídio intencional, por 100 000 habitantes, por sexo e idade</h5>
                   </div>
                 </a>            
               </div>
               <div class="col">
-                <a class="noticias" href="">
+                <a id="noticia2" class="noticias" href="">
                 <div class="shadow-lg p-3 mb-5 rounded noticias">
                   <h5>Despesas públicas primárias como proporção do orçamento original aprovado, por setor (ou por códigos de orçamento ou similares)</h5>
                 </div>
                 </a>
               </div>
               <div class="col">
-                <a class="noticias" href="">
+                <a id="noticia3" class="noticias" href="">
                 <div class="shadow-lg p-3 mb-5 rounded noticias">
-                  <h5>Número de países que adotam e implementam garantias constitucionais, estatutárias e/ou políticas para acesso público à informação</h5>
+                  <h5>Proporção de presos sem sentença em relação à população prisional em geral</h5>
                 </div>
                 </a>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <img id="grafico" src="img/grafico1.png" alt="garfico com">
+                </div>
               </div>
             </div>
           </div>
@@ -115,7 +125,7 @@
 
 
       <!-- #### RODAPE #### -->
-      <footer style="background-color: #0A0D27; color: white;" class="fixed-bottom">
+      <footer style="background-color: #0A0D27; color: white;">
           <br>
           <div class="container">
             <div class="row">
