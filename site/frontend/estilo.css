@@ -1,0 +1,60 @@
+/* ID */
+#menu-superior {
+    background-color: #0A0D27;
+}
+
+#menu-superior a {
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 40px 0px 40px;
+}
+
+#menu-superior a:hover {
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+#botao {
+    background-color: #ACADC2;
+    color: black;
+}
+
+#botao:hover {
+    background-color: #f0f0f1;
+}
+
+#titulo {
+    display: inline-block;
+    font-size: 48px;
+    font-family: Blippo, fantasy;
+    color: #008000;
+}
+
+#botao:hover {
+    background-color: rgb(237, 237, 255);
+    color: black;
+}
+/* FIM DOS ID'S */
+
+
+
+
+
+/* CLASSES */
+.noticias {
+    color: black;
+    margin: 0px 20px 0px 20px;
+    text-decoration: none;
+    background-color: white;
+    transition: 1s;
+}
+
+.noticias:hover, .noticias:focus {
+    background: #0A0D27;
+    color: white;
+    transform: translateX(10px) scale(1.2);
+}
+/* FIM DAS CLASSES */
