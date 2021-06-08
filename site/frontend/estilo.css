@@ -1,4 +1,4 @@
-/* ID */
+/* ###### ID ###### */
 #menu-superior {
     background-color: #0A0D27;
 }
@@ -37,13 +37,13 @@
     background-color: rgb(237, 237, 255);
     color: black;
 }
-/* FIM DOS ID'S */
+/* ###### FIM DOS ID'S ###### */
 
 
 
 
 
-/* CLASSES */
+/* ###### CLASSES ###### */
 .noticias {
     color: black;
     margin: 0px 20px 0px 20px;
@@ -57,4 +57,9 @@
     color: white;
     transform: translateX(10px) scale(1.2);
 }
-/* FIM DAS CLASSES */
+/* ###### FIM DAS CLASSES ###### */
+
+
+
+
+
