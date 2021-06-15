@@ -7,7 +7,7 @@ $(document).ready(function () {
             $("#grafico").show("slow");
             
         }, function () {
-            $("#grafico").hide("slow");
+            $("#grafico").stop(true, true).hide("slow");
         }
     );
 
@@ -16,7 +16,7 @@ $(document).ready(function () {
         $("#grafico").show("slow");
         
     }, function () {
-        $("#grafico").hide("slow");
+        $("#grafico").stop(true, true).hide("slow");
     }
 );
 
@@ -25,7 +25,7 @@ $(document).ready(function () {
         $("#grafico").show("slow");
         
     }, function () {
-        $("#grafico").hide("slow");
+        $("#grafico").stop(true, true).hide("slow");
     }
     );
 });
