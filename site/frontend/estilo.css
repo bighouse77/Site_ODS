@@ -37,6 +37,26 @@
     background-color: rgb(237, 237, 255);
     color: black;
 }
+
+#cadastro {
+    text-align: center;
+    background-color: #191C3E;
+    color: white;
+    margin-top: 200px;
+}
+
+#form_cad {
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inline-block; 
+    background-color: #636675;
+     
+}
+
+#form_cad input{
+    margin: 10px;
+}
 /* ###### FIM DOS ID'S ###### */
 
 
